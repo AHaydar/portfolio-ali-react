@@ -5,7 +5,9 @@ import PageTitle from './components/page_title';
 class App extends Component {
   render() {
     return (
-      <PageTitle />
+      <div className="App">
+        <PageTitle name="- ABOUT - "/>
+      </div>
     );
   }
 }
