@@ -1,8 +1,10 @@
 import React from 'react';
+import '../App.css';
+
 
 const PageTitle = (props) => {
     return (
-        <div>{props.name}</div>
+        <h1>{props.name}</h1>
     );
 }
 
