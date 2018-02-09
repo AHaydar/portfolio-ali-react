@@ -47,15 +47,39 @@ h4 {
 .profile_pic_wrapper {
   width:270px;
   margin: 0 auto;
+  background-color: #666666;
+
+}
+
+.profilePic {
+  width: 270px;
+  align-self: center;
+  
+
 }
 
 .caption {
   color: #ffffff;
-  background-color: #666666;
   text-align: center;
-  overflow:auto;
+  overflow:auto; 
 }
 
+.no_margin {
+  margin: 0;
+}
+
+.bio {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signature {
+  color: darkolivegreen;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-style: italic;
+  font-size: 30px;
+  text-align: right;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

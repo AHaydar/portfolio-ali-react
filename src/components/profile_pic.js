@@ -4,9 +4,9 @@ import '../App.css';
 const ProfilePicture = (props) => {
     return (
         <div className="profile_pic_wrapper">
-            <img src={require("../images/profile_pic_ali_1.jpg")} alt={props.name} width="270" height="300"/>
+            <img className="profilePic" src={require("../images/profile_pic_ali_1.jpg")} alt={props.name} />
             <div className="caption">
-                <h2>
+                <h2 className="no_margin">
                     {props.name}
                 </h2>
                 <h4>
