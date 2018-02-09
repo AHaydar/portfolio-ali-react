@@ -22,12 +22,38 @@
   font-size: large;
 }
 
-h1 {
+h1  {
   color: #666666;
   font-family: 'Times New Roman', Times, serif;
   font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+.profile_pic_wrapper {
+  width:270px;
+  margin: 0 auto;
+}
+
+.caption {
+  color: #ffffff;
+  background-color: #666666;
+  text-align: center;
+  overflow:auto;
 }
 
 
