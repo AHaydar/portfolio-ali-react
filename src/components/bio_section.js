@@ -1,14 +1,15 @@
 import React from 'react';
 import '../App.css';
 import Signature from './signature';
+import BlockButton from './block_button';
 
 const BioSection = (props) => {
     return (
-        <div>
-            <div className="bio">
+        <div className="bio">
+            <div>
                 <p>Hi there! I'm Ali Haydar, Software Tester and Quality enabler. 
                     I have over 9 years of experience 
-                    in the software industry. I am detail-oriented and solution driven</p>
+                    in the software industry. I am detail-oriented and solution driven.</p>
                 <p>I try to find bugs, but I prefer to prevent them. 
                     I sometimes code and I like it. 
                     My work usually involves testing (manual and automated),
@@ -22,8 +23,11 @@ const BioSection = (props) => {
                     and I enjoy providing support and guidance to the team.
                     In my free time I do yoga, browse the internet or watch TV series.
                 </p>
+                <br/>
+                <Signature name="Ali Haydar"/>
             </div>
-            <Signature name="Ali Haydar"/>
+            <BlockButton name="DOWNLOAD RESUME"/>
+            <BlockButton name="CONTACT"/>
         </div>
     );
 }

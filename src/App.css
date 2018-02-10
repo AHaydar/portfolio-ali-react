@@ -69,8 +69,9 @@ h4 {
 }
 
 .bio {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 40px;
 }
 
 .signature {
@@ -80,6 +81,37 @@ h4 {
   font-size: 30px;
   text-align: right;
 }
+
+.block_button {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'Times New Roman', Times, serif;
+  color: #666666;
+  font-size: 18px;
+  margin:10px;
+  padding: 10px;
+}
+.block_button:hover {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+} 
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

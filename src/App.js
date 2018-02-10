@@ -15,10 +15,8 @@ class App extends Component {
           <div className="col-sm-4 logoCol">
             <ProfilePicture name="Ali Haydar" title="QA Engineer"/>
           </div>
-          <div className="col-sm-4 logoCol">
+          <div className="col-sm-8 logoCol">
             <BioSection />
-          </div>
-          <div className="col-sm-4 logoCol">
           </div>
         </div>
       </div>
