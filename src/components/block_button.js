@@ -3,7 +3,7 @@ import '../App.css';
 
 const BlockButton = (props) => {
     return (
-        <a href={require("../documents/Ali_Haydar_resume.pdf")} download="Ali_Haydar_resume.pdf" >
+        <a href={props.url} target={props.target}>
             <div className="block_button" >
                 {props.name}
             </div>
