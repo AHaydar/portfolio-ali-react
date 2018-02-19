@@ -14,7 +14,7 @@ const Header = (props) => {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#">Software Quality Assurance</a>
+                        <Link to='/' className="navbar-brand">Software Quality Assurance</Link>
                     </div>
                     <div className="collapse navbar-collapse" id="navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right">

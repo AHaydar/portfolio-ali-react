@@ -3,7 +3,6 @@ import '../App.css';
 import PageTitle from './page_title';
 import ProfilePicture from './profile_pic';
 import BioSection from './bio_section';
-import NavBar from './nav-bar';
 
 class About extends Component {
   render() {
