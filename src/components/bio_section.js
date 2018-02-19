@@ -26,7 +26,7 @@ const BioSection = (props) => {
                 <br/>
                 <Signature name="Ali Haydar"/>
             </div>
-            <BlockButton name="DOWNLOAD RESUME" url={require("../documents/Ali_Haydar_resume.pdf")} target="_blank"/>
+            <BlockButton name="DOWNLOAD MY RESUME" url={require("../documents/Ali_Haydar_resume.pdf")} target="_blank"/>
         </div>
     );
 }

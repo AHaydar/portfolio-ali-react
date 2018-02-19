@@ -12,4 +12,3 @@ const BlockButton = (props) => {
 }
 
 export default BlockButton;
-// require("../images/profile_pic_ali_1.jpg")
