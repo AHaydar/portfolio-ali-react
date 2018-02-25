@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Header = (props) => {
     return (
-            <nav className="navbar navbar-default navbar-inverse" role="navigation">
+            <nav className="navbar navbar-default navbar-inverse">
                 <div className="container-fluid" id="navfluid">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
