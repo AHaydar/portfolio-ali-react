@@ -7,7 +7,13 @@ class Game extends Component {
                 <div className="game-board">
                     <Board />
                 </div>
+                <div>
+                    <div>{/* status */}</div>
+                    <div>{/* TODO */}</div>
+                </div>
             </div>
-        )
+        );
     }
 }
+
+export default Game;
